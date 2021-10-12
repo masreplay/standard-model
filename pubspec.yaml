@@ -1,0 +1,32 @@
+name: standard_model
+description: The Standard Model of particle physics
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.3
+  auto_route: ^2.4.2
+  json_serializable: ^5.0.2
+  shared_preferences: ^2.0.8
+  provider: ^6.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.1.4
+
+  flutter_lints: ^1.0.4
+  auto_route_generator: ^2.4.1
+flutter:
+
+  uses-material-design: true
+
+
+
+
