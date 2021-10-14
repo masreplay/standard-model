@@ -36,7 +36,7 @@ class ParticleListTile extends StatelessWidget {
             child: Text(
               item.symbols.first,
               style: const TextStyle(
-                fontSize: 30,
+                fontSize: 25,
                 fontWeight: FontWeight.w500,
               ),
             ),

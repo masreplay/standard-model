@@ -1,9 +1,8 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:standard_model/components/particle_list_tile.dart';
+import 'package:standard_model/data/repository.dart';
 import 'package:standard_model/models/particle.dart';
-
-import '../../router/app_router.gr.dart';
 
 class ParticleDetailsPage extends StatefulWidget {
   final int id;
@@ -22,8 +21,8 @@ class _ParticleDetailsPageState extends State<ParticleDetailsPage> {
 
   @override
   void initState() {
+    item = Repository().getParticleById(widget.id);
     super.initState();
-    item = Seed.particles.firstWhere((element) => element.id == widget.id);
   }
 
   @override

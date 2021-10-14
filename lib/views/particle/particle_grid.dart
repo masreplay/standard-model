@@ -7,22 +7,26 @@ import '../../router/app_router.gr.dart';
 
 class ParticleGrid extends StatelessWidget {
   final List<Particle> items;
+  final EdgeInsets padding;
 
   const ParticleGrid({
     Key? key,
     required this.items,
+    required this.padding,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return GridView.builder(
       itemCount: items.length,
+      shrinkWrap: true,
+      physics: NeverScrollableScrollPhysics(),
       scrollDirection: Axis.horizontal,
-      padding: const EdgeInsets.all(10),
+      padding:padding,
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
         mainAxisSpacing: 10,
         crossAxisSpacing: 10,
-        crossAxisCount: MediaQuery.of(context).orientation == Orientation.landscape?2:4,
+        crossAxisCount: 2,
       ),
       itemBuilder: (context, index) {
         final item = items[index];

@@ -16,6 +16,7 @@ class ParticleList extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView.builder(
       itemCount: items.length,
+      physics: BouncingScrollPhysics(),
       itemBuilder: (context, index) {
         final item = items[index];
         return ParticleListTile(

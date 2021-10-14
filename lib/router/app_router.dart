@@ -1,6 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:standard_model/views/home_page.dart';
 import 'package:standard_model/views/particle/particle_details_page.dart';
+import 'package:standard_model/views/particle/particle_grid_page.dart';
 import 'package:standard_model/views/particle/particle_list_page.dart';
 import 'package:standard_model/welcome.dart';
 
@@ -8,15 +9,14 @@ import 'package:standard_model/welcome.dart';
   replaceInRouteName: 'Page,Route',
   routes: <AutoRoute>[
     AutoRoute(page: WelcomePage),
-    AutoRoute(page: FilterPage),
     AutoRoute(
       page: HomePage,
-      guards: [WelcomeGuard],
+      // guards: [WelcomeGuard],
       initial: true,
       children: [
         RedirectRoute(path: '', redirectTo: 'list'),
-        AutoRoute(path: 'list', page: ParticleListPage, initial: true),
-        AutoRoute(path: 'grid', page: ParticleGridPage),
+        AutoRoute(path: 'list', page: ParticleListPage),
+        AutoRoute(path: 'grid', page: ParticleGridPage, initial: true),
         RedirectRoute(path: '*', redirectTo: 'list'),
       ],
     ),

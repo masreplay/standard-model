@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:standard_model/models/particle.dart';
-import 'package:standard_model/views/particle/particle_grid.dart';
+import 'package:standard_model/data/repository.dart';
 import 'package:standard_model/views/particle/particle_list.dart';
 
 class ParticleListPage extends StatelessWidget {
@@ -9,17 +8,8 @@ class ParticleListPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: ParticleList(items: Seed.particles),
+      body: ParticleList(items: Repository().getAllParticles()),
     );
   }
 }
-class ParticleGridPage extends StatelessWidget {
-  const ParticleGridPage({Key? key}) : super(key: key);
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: ParticleGrid(items: Seed.particles),
-    );
-  }
-}

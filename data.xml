@@ -1,0 +1,865 @@
+<resources>
+
+    <string name="app_name">Standard Model</string>
+    <string name="app_version" translatable="false">1.0 beta</string>
+    <!--    TODO: use sign below instead ogf anti View in the layout-->
+    <!--   important sign  ̅̅̅̅̅̅-->
+    <!-- copy -->
+    <string name="copied">Copied to clipboard</string>
+    <!--ActivityName-->
+    <string name="title_activity_settings">Settings</string>
+    <string name="about_project">About</string>
+
+    <!--ReadElementActivity RecyclerView Title-->
+    <string name="overview">Overview</string>
+    <string name="firstname">Current name:</string>
+    <string name="secondname">Other names:</string>
+    <string name="yeardiscovered">Year discovered:</string>
+    <string name="discoveredby">Discovered by:</string>
+    <string name="theorized">Theorized by:</string>
+    <string name="spin">Spin:</string>
+    <string name="emission">Emission:</string>
+    <string name="properties">Properties</string>
+    <string name="generation">Generation:</string>
+    <string name="antiparticle">Antiparticle:</string>
+    <string name="charge">Electric Charge:</string>
+    <string name="speed">Speed:</string>
+    <string name="mean_lifetime">Mean lifetime:</string>
+    <string name="diameter">Diameter:</string>
+
+    <!--Elements in model-->
+    <string name="up">up</string>
+    <string name="charm">charm</string>
+    <string name="top">top</string>
+    <string name="down">down</string>
+    <string name="strange">strange</string>
+    <string name="bottom">bottom</string>
+    <string name="electron">electron</string>
+    <string name="tau">tau</string>
+    <string name="neutrino">neutrino</string>
+    <string name="muon">muon</string>
+    <string name="antiup">antiup</string>
+    <string name="anticharm">anticharm</string>
+    <string name="antitop">antitop</string>
+    <string name="antidown">antidown</string>
+    <string name="antistrange">antistrange</string>
+    <string name="antibottom">antibottom</string>
+    <string name="antielectron">antielectron</string>
+    <string name="antitau">antitau</string>
+    <string name="antimuon">antimuon</string>
+    <string name="antineutrino">antineutrino</string>
+    <string name="photon">photon</string>
+    <string name="gluon">gluon</string>
+    <string name="z_boson">Z⁰ boson</string>
+    <string name="w_neg_boson">W⁻ boson</string>
+    <string name="w_pos_boson">W⁺ boson</string>
+    <string name="higgs">higgs</string>
+    <string name="graviton">graviton</string>
+    <string name="stateComma" translatable="false"> | </string>
+    <string name="bosons">BOSONS</string>
+    <string name="quarks">QUARKS</string>
+    <string name="lepton">LEPTON</string>
+    <string name="gauge">GAUGE</string>
+    <string name="scalar">SCALAR</string>
+    <string name="tensor">TENSOR</string>
+    <string name="hypothetical">HYPOTHETICAL</string>
+    <string name="vector_bosons">VECTOR BOSONS</string>
+    <string name="gen_one" translatable="false">|</string>
+    <string name="gen_two" translatable="false">||</string>
+    <string name="gen_three" translatable="false">|||</string>
+
+    <!--element speed-->
+    <string name="up_speed">depends on the number of protons and neutrons in the atom</string>
+    <string name="charm_speed">depends on the number of protons and neutrons in the atom</string>
+    <string name="top_speed">depends on the number of protons and neutrons in the atom</string>
+    <string name="down_speed">depends on the number of protons and neutrons in the atom</string>
+    <string name="strange_speed">depends on the number of protons and neutrons in the atom</string>
+    <string name="bottom_speed">depends on the number of protons and neutrons in the atom</string>
+    <string name="antiup_speed">depends on the number of protons and neutrons in the atom</string>
+    <string name="anticharm_speed">depends on the number of protons and neutrons in the atom</string>
+    <string name="antitop_speed">depends on the number of protons and neutrons in the atom</string>
+    <string name="antidown_speed">depends on the number of protons and neutrons in the atom</string>
+    <string name="antistrange_speed">depends on the number of protons and neutrons in the atom</string>
+    <string name="antibottom_speed">depends on the number of protons and neutrons in the atom</string>
+    <string name="electron_speed">2,200 km/s</string>
+    <string name="muon_speed" translatable="false">29.8 cm/ns</string>
+    <string name="tau_speed" translatable="false">≈light speed 3×10⁸m/s</string>
+    <string name="antielectron_speed">2,200 km/s</string>
+    <string name="antimuon_speed" translatable="false">_</string>
+    <string name="antitau_speed" translatable="false">_</string>
+    <string name="electron_neutrino_speed">≈light speed 3×10⁸m/s</string>
+    <string name="muon_neutrino_speed">≈light speed 3×10⁸m/s</string>
+    <string name="tau_neutrino_speed">≈light speed 3×10⁸m/s</string>
+    <string name="electron_antineutrino_speed">≈light speed 3×10⁸m/s</string>
+    <string name="muon_antineutrino_speed">≈light speed 3×10⁸m/s</string>
+    <string name="tau_antineutrino_speed">≈light speed 3×10⁸m/s</string>
+    <string name="photon_speed">=light speed 3×10⁸m/s</string>
+    <string name="gluon_speed">≈light speed 3×10⁸m/s</string>
+    <string name="z_boson_speed">≈light speed 3×10⁸m/s</string>
+    <string name="w_nag_speed">≈light speed 3×10⁸m/s</string>
+    <string name="w_pos_speed">≈light speed 3×10⁸m/s</string>
+    <string name="higgs_speed" translatable="false">≈light speed 3×10⁸m/s</string>
+    <string name="graviton_speed" translatable="false">_</string>
+
+    <!--element current Elements-->
+    <string name="up_name">up</string>
+    <string name="charm_name">charm</string>
+    <string name="top_name">top</string>
+    <string name="down_name">down</string>
+    <string name="strange_name">strange</string>
+    <string name="bottom_name">bottom</string>
+    <string name="antiup_name">antiup</string>
+    <string name="anticharm_name">anticharm</string>
+    <string name="antitop_name">antitop</string>
+    <string name="antidown_name">antidown</string>
+    <string name="antistrange_name">antistrange</string>
+    <string name="antibottom_name">antibottom</string>
+    <string name="electron_name">electron</string>
+    <string name="muon_name">muon</string>
+    <string name="tau_name">tau</string>
+    <string name="antielectron_name">antielectron</string>
+    <string name="antimuon_name">antimuon</string>
+    <string name="antitau_name">antitau</string>
+    <string name="electron_neutrino_name">electron neutrino</string>
+    <string name="muon_neutrino_name">muon neutrino</string>
+    <string name="tau_neutrino_name">tau neutrino</string>
+    <string name="electron_antineutrino_name">electron antineutrino</string>
+    <string name="muon_antineutrino_name">muon aintneutrino</string>
+    <string name="tau_antineutrino_name">tau antineutrino</string>
+    <string name="photon_name">photon</string>
+    <string name="gluon_name">gluon</string>
+    <string name="z_boson_name">Z⁰ boson</string>
+    <string name="w_neg_name">W⁻ boson</string>
+    <string name="w_pos_name">W⁺ boson</string>
+    <string name="higgs_name">higgs</string>
+    <string name="graviton_name">graviton</string>
+
+    <!--element Elements when discovered-->
+    <string name="up_name2">up</string>
+    <string name="charm_name2">charm</string>
+    <string name="top_name2">top, truth</string>
+    <string name="down_name2">down</string>
+    <string name="strange_name2">strange</string>
+    <string name="bottom_name2">bottom, beauty</string>
+    <string name="antiup_name2">antiup</string>
+    <string name="anticharm_name2">anticharm</string>
+    <string name="antitop_name2">antitop, antitruth</string>
+    <string name="antidown_name2">antidown</string>
+    <string name="antistrange_name2">antistrange</string>
+    <string name="antibottom_name2">antibottom, antibeauty</string>
+    <string name="electron_name2">electron, negaton</string>
+    <string name="muon_name2">mesotron</string>
+    <string name="tau_name2">tau,tauon</string>
+    <string name="antielectron_name2">\positon,positron,antielectron</string>
+    <string name="antimuon_name2">antimesotron</string>
+    <string name="antitau_name2">antitau</string>
+    <string name="electron_neutrino_name2">electron neutrino</string>
+    <string name="muon_neutrino_name2">muon neutrino</string>
+    <string name="tau_neutrino_name2">tau neutrino</string>
+    <string name="electron_antineutrino_name2">electron antineutrino</string>
+    <string name="muon_antineutrino_name2">muon antineutrino</string>
+    <string name="tau_antineutrino_name2">tau antineutrino</string>
+    <string name="gluon_name2">gluon</string>
+    <string name="photon_name2">quanta</string>
+    <string name="z_boson_name2">z boson</string>
+    <string name="w_nag_name2">w boson</string>
+    <string name="w_pos_name2">w boson</string>
+    <string name="higgs_name2">Higgs boson</string>
+    <string name="graviton_name2">graviton</string>
+
+    <!--element symbol-->
+    <string name="up_symbol" translatable="false">u</string>
+    <string name="charm_symbol" translatable="false">c</string>
+    <string name="top_symbol" translatable="false">t</string>
+    <string name="down_symbol" translatable="false">d</string>
+    <string name="strange_symbol" translatable="false">s</string>
+    <string name="bottom_symbol" translatable="false">b</string>
+    <string name="antiup_symbol" translatable="false">u</string>
+    <string name="anticharm_symbol" translatable="false">c</string>
+    <string name="antitop_symbol" translatable="false">t</string>
+    <string name="antidown_symbol" translatable="false">d</string>
+    <string name="antistrange_symbol" translatable="false">s</string>
+    <string name="antibottom_symbol" translatable="false">b</string>
+    <string name="electron_symbol" translatable="false">e⁻</string>
+    <string name="muon_symbol" translatable="false">μ⁻</string>
+    <string name="tau_symbol" translatable="false">τ⁻</string>
+    <string name="antielectron_symbol" translatable="false">β⁺</string>
+    <string name="antimuon_symbol" translatable="false">μ⁺</string>
+    <string name="antitau_symbol" translatable="false">τ⁺</string>
+    <string name="electron_neutrino_symbol" translatable="false">νe</string>
+    <string name="muon_neutrino_symbol" translatable="false">νμ</string>
+    <string name="tau_neutrino_symbol" translatable="false">ντ</string>
+    <string name="electron_antineutrino_symbol" translatable="false">νe</string>
+    <string name="muon_antineutrino_symbol" translatable="false">νμ</string>
+    <string name="tau_antineutrino_symbol" translatable="false">ντ</string>
+    <string name="photon_symbol" translatable="false">γ</string>
+    <string name="gluon_symbol" translatable="false">g</string>
+    <string name="z_boson_symbol" translatable="false">Z⁰</string>
+    <string name="w_nag_symbol" translatable="false">W⁻</string>
+    <string name="w_pos_symbol" translatable="false">W⁺</string>
+    <string name="higgs_symbol" translatable="false">H</string>
+    <string name="graviton_symbol" translatable="false">G</string>
+
+    <!--element Year Discovered-->
+    <string name="up_year_discovered" translatable="false">1968</string>
+    <string name="charm_year_discovered" translatable="false">1974</string>
+    <string name="top_year_discovered" translatable="false">1995</string>
+    <string name="down_year_discovered" translatable="false">1968</string>
+    <string name="strange_year_discovered" translatable="false">1964</string>
+    <string name="bottom_year_discovered" translatable="false">1977</string>
+    <string name="antiup_year_discovered" translatable="false">1968</string>
+    <string name="anticharm_year_discovered" translatable="false">1974</string>
+    <string name="antitop_year_discovered" translatable="false">1995</string>
+    <string name="antidown_year_discovered" translatable="false">1968</string>
+    <string name="antistrange_year_discovered" translatable="false">1964</string>
+    <string name="antibottom_year_discovered" translatable="false">1977</string>
+    <string name="electron_year_discovered" translatable="false">1897</string>
+    <string name="muon_year_discovered" translatable="false">1936</string>
+    <string name="tau_year_discovered" translatable="false">1975</string>
+    <string name="antielectron_year_discovered" translatable="false">1932</string>
+    <string name="antimuon_year_discovered" translatable="false">1936</string>
+    <string name="antitau_year_discovered" translatable="false">1975</string>
+    <string name="electron_neutrino_year_discovered" translatable="false">1956</string>
+    <string name="muon_neutrino_year_discovered" translatable="false">1962</string>
+    <string name="tau_neutrino_year_discovered" translatable="false">2000</string>
+    <string name="electron_antineutrino_year_discovered" translatable="false">1956</string>
+    <string name="muon_antineutrino_year_discovered" translatable="false">1962</string>
+    <string name="tau_antineutrino_year_discovered" translatable="false">2000</string>
+    <string name="photon_year_discovered" translatable="false">1905</string>
+    <string name="gluon_year_discovered" translatable="false">1978</string>
+    <string name="z_boson_year_discovered" translatable="false">1983</string>
+    <string name="w_nag_year_discovered" translatable="false">1983</string>
+    <string name="w_pos_year_discovered" translatable="false">1983</string>
+    <string name="higgs_year_discovered" translatable="false">2012</string>
+    <string name="graviton_year_discovered" translatable="false">_</string>
+
+    <!--element Discovered by-->
+    <string name="up_discovered_by">SLAC</string>
+    <string name="charm_discovered_by">Burton Richter_SLAC,Samuel Ting_BNL</string>
+    <string name="top_discovered_by">CDF collaborations with DØ </string>
+    <string name="down_discovered_by">SLAC</string>
+    <string name="strange_discovered_by">SLAC</string>
+    <string name="bottom_discovered_by">Leon M.Lederman</string>
+    <string name="antiup_discovered_by" translatable="false">_</string>
+    <string name="anticharm_discovered_by" translatable="false">_</string>
+    <string name="antitop_discovered_by" translatable="false">_</string>
+    <string name="antidown_discovered_by" translatable="false">_</string>
+    <string name="antistrange_discovered_by" translatable="false">_</string>
+    <string name="antibottom_discovered_by" translatable="false">_</string>
+    <string name="electron_discovered_by">J.J.Thomson</string>
+    <string name="muon_discovered_by">Carl D.Anderson,Seth Neddermeye</string>
+    <string name="tau_discovered_by">Martin Lewis Perl</string>
+    <string name="antielectron_discovered_by" translatable="false">_</string>
+    <string name="antimuon_discovered_by" translatable="false">_</string>
+    <string name="antitau_discovered_by" translatable="false">_</string>
+    <string name="electron_neutrino_discovered_by">Clyde Cowan,Frederick Reines</string>
+    <string name="muon_neutrino_discovered_by">Leon Lederman,Melvin Schwartz,Jack Steinberger</string>
+    <string name="tau_neutrino_discovered_by">DONUT</string>
+    <string name="electron_antineutrino_discovered_by" translatable="false">_</string>
+    <string name="muon_antineutrino_discovered_by" translatable="false">_</string>
+    <string name="tau_antineutrino_discovered_by" translatable="false">_</string>
+    <string name="photon_discovered_by">Albert Einstein</string>
+    <string name="gluon_discovered_by">DORIS by PLUTO experiments</string>
+    <string name="z_boson_discovered_by">UA1 collaborations with UA2,CERN</string>
+    <string name="w_nag_discovered_by">UA1 collaborations with UA2,CERN</string>
+    <string name="w_pos_discovered_by">UA1 collaborations with UA2,CERN</string>
+    <string name="higgs_discovered_by">Large Hadron Collider</string>
+    <string name="graviton_discovered_by" translatable="false">_</string>
+
+    <!--wkikpedia_url-->
+    <string name="up_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Up_quark</string>
+    <string name="charm_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Charm_quark</string>
+    <string name="top_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Top_quark</string>
+    <string name="down_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Down_quark</string>
+    <string name="strange_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Strange_quark</string>
+    <string name="bottom_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Bottom_quark</string>
+    <string name="antiup_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Up_quark</string>
+    <string name="anticharm_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Charm_quark</string>
+    <string name="antitop_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Top_quark</string>
+    <string name="antidown_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Down_quark</string>
+    <string name="antistrange_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Strange_quark</string>
+    <string name="antibottom_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Bottom_quark</string>
+    <string name="electron_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Electron</string>
+    <string name="muon_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Muon</string>
+    <string name="tau_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Tau_(particle)</string>
+    <string name="antielectron_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Positron</string>
+    <string name="antimuon_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Muon</string>
+    <string name="antitau_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Tau_(particle)</string>
+    <string name="electron_neutrino_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Electron_neutrino</string>
+    <string name="muon_neutrino_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Muon_neutrino</string>
+    <string name="tau_neutrino_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Tau_neutrino</string>
+    <string name="electron_antineutrino_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Electron_neutrino</string>
+    <string name="muon_antineutrino_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Muon_neutrino</string>
+    <string name="tau_antineutrino_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Tau_neutrino</string>
+    <string name="photon_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Photon</string>
+    <string name="gluon_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Gluon</string>
+    <string name="z_boson_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/W_and_Z_bosons</string>
+    <string name="w_nag_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/W_and_Z_bosons</string>
+    <string name="w_pos_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/W_and_Z_bosons</string>
+    <string name="higgs_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Higgs_boson</string>
+    <string name="graviton_wikipedia_url" translatable="false">https://en.wikipedia.org/wiki/Graviton</string>
+
+    <!--elements statistics-->
+    <string name="up_statistics">Fermionic</string>
+    <string name="charm_statistics">Fermionic</string>
+    <string name="top_statistics">Fermionic</string>
+    <string name="down_statistics">Fermionic</string>
+    <string name="strange_statistics">Fermionic</string>
+    <string name="bottom_statistics">Fermionic</string>
+    <string name="antiup_statistics">Fermionic</string>
+    <string name="anticharm_statistics">Fermionic</string>
+    <string name="antitop_statistics">Fermionic</string>
+    <string name="antidown_statistics">Fermionic</string>
+    <string name="antistrange_statistics">Fermionic</string>
+    <string name="antibottom_statistics">Fermionic</string>
+    <string name="electron_statistics">Fermionic</string>
+    <string name="muon_statistics">Fermionic</string>
+    <string name="tau_statistics">Fermionic</string>
+    <string name="antielectron_statistics">Fermionic</string>
+    <string name="antimuon_statistics">Fermionic</string>
+    <string name="antitau_statistics">Fermionic</string>
+    <string name="electron_neutrino_statistics">Fermionic</string>
+    <string name="muon_neutrino_statistics">Fermionic</string>
+    <string name="tau_neutrino_statistics">Fermionic</string>
+    <string name="electron_antineutrino_statistics">Fermionic</string>
+    <string name="muon_antineutrino_statistics">Fermionic</string>
+    <string name="tau_antineutrino_statistics">Fermionic</string>
+    <string name="gluon_statistics">Bosonic</string>
+    <string name="photon_statistics">Bose–Einstein</string>
+    <string name="z_boson_statistics">Bosonic</string>
+    <string name="w_nag_statistics">Bosonic</string>
+    <string name="w_pos_statistics">Bosonic</string>
+    <string name="higgs_statistics">Bosonic</string>
+    <string name="graviton_statistics">Bose–Einstein</string>
+    <string name="up_typaaaae" translatable="false">quark</string>
+    <!--element type-->
+    <string name="up_type" translatable="false">quark</string>
+    <string name="charm_type" translatable="false">quark</string>
+    <string name="top_type" translatable="false">quark</string>
+    <string name="down_type" translatable="false">quark</string>
+    <string name="strange_type" translatable="false">quark</string>
+    <string name="bottom_type" translatable="false">quark</string>
+    <string name="antiup_type" translatable="false">quark</string>
+    <string name="anticharm_type" translatable="false">quark</string>
+    <string name="antitop_type" translatable="false">quark</string>
+    <string name="antidown_type" translatable="false">quark</string>
+    <string name="antistrange_type" translatable="false">quark</string>
+    <string name="antibottom_type" translatable="false">quark</string>
+    <string name="electron_type" translatable="false">lepton</string>
+    <string name="muon_type" translatable="false">lepton</string>
+    <string name="tau_type" translatable="false">lepton</string>
+    <string name="antielectron_type" translatable="false">lepton</string>
+    <string name="antimuon_type" translatable="false">lepton</string>
+    <string name="antitau_type" translatable="false">lepton</string>
+    <string name="electron_neutrino_type" translatable="false">lepton</string>
+    <string name="muon_neutrino_type" translatable="false">lepton</string>
+    <string name="tau_neutrino_type" translatable="false">lepton</string>
+    <string name="electron_antineutrino_type" translatable="false">lepton</string>
+    <string name="muon_antineutrino_type" translatable="false">lepton</string>
+    <string name="tau_antineutrino_type" translatable="false">lepton</string>
+    <string name="photon_type" translatable="false">gauge</string>
+    <string name="gluon_type" translatable="false">gauge</string>
+    <string name="z_boson_type" translatable="false">gauge</string>
+    <string name="w_nag_type" translatable="false">gauge</string>
+    <string name="w_pos_type" translatable="false">gauge</string>
+    <string name="higgs_type" translatable="false">scalar</string>
+    <string name="graviton_type" translatable="false">tensor</string>
+
+    <!--element theorized-->
+    <string name="up_theorized">Murray Gell-Mann,George Zweig</string>
+    <string name="charm_theorized">Sheldon Glashow,John Iliopoulos,Luciano Ma</string>
+    <string name="top_theorized">Makoto Kobayashi,Toshihide Maskawa</string>
+    <string name="down_theorized">Murray Gell-Mann,George Zweig</string>
+    <string name="strange_theorized">Murray Gell-Mann,George Zweig</string>
+    <string name="bottom_theorized">Makoto Kobayashi,Toshihide Maskawa</string>
+    <string name="antiup_theorized" translatable="false">_</string>
+    <string name="anticharm_theorized" translatable="false">_</string>
+    <string name="antitop_theorized" translatable="false">_</string>
+    <string name="antidown_theorized" translatable="false">_</string>
+    <string name="antistrange_theorized" translatable="false">_</string>
+    <string name="antibottom_theorized" translatable="false">_</string>
+    <string name="electron_theorized">Richard Laming,G.Johnstone Stoney</string>
+    <string name="muon_theorized" translatable="false">_</string>
+    <string name="tau_theorized" translatable="false">_</string>
+    <string name="antielectron_theorized">Paul Dirac</string>
+    <string name="antimuon_theorized" translatable="false">_</string>
+    <string name="antitau_theorized" translatable="false">_</string>
+    <string name="electron_neutrino_theorized">Wolfgang Pauli</string>
+    <string name="muon_neutrino_theorized" translatable="false">_</string>
+    <string name="tau_neutrino_theorized" translatable="false">_</string>
+    <string name="electron_antineutrino_theorized" translatable="false">_</string>
+    <string name="muon_antineutrino_theorized" translatable="false">_</string>
+    <string name="tau_antineutrino_theorized" translatable="false">_</string>
+    <string name="photon_theorized">Albert Einstein </string>
+    <string name="gluon_theorized">Murray Gell-Mann</string>
+    <string name="z_boson_theorized">mohammad abdussalam,Glashow,Weinberg</string>
+    <string name="w_nag_theorized">mohammad abdussalam,Glashow,Weinberg</string>
+    <string name="w_pos_theorized">mohammad abdussalam,Glashow,Weinberg</string>
+    <string name="higgs_theorized">P.Higgs</string>
+    <string name="graviton_theorized">Dmitrii Blokhintsev,F.M.Galperin</string>
+
+
+    <!--elements generation-->
+    <string name="up_generation">First</string>
+    <string name="charm_generation">Second</string>
+    <string name="top_generation">Third</string>
+    <string name="down_generation">First</string>
+    <string name="strange_generation">Second</string>
+    <string name="bottom_generation">Third</string>
+    <string name="antiup_generation">First</string>
+    <string name="anticharm_generation">Second</string>
+    <string name="antitop_generation">Third</string>
+    <string name="antidown_generation">First</string>
+    <string name="antistrange_generation">Second</string>
+    <string name="antibottom_generation">Third</string>
+    <string name="electron_generation">First</string>
+    <string name="muon_generation">Second</string>
+    <string name="tau_generation">Third</string>
+    <string name="antielectron_generation">First</string>
+    <string name="antimuon_generation">Second</string>
+    <string name="antitau_generation">Third</string>
+    <string name="electron_neutrino_generation">First</string>
+    <string name="muon_neutrino_generation">Second</string>
+    <string name="tau_neutrino_generation">Third</string>
+    <string name="electron_antineutrino_generation">First</string>
+    <string name="muon_antineutrino_generation">Second</string>
+    <string name="tau_antineutrino_generation">Third</string>
+    <string name="gluon_generation" translatable="false">_</string>
+    <string name="photon_generation" translatable="false">_</string>
+    <string name="z_boson_generation" translatable="false">_</string>
+    <string name="w_nag_generation" translatable="false">_</string>
+    <string name="w_pos_generation" translatable="false">_</string>
+    <string name="higgs_generation" translatable="false">_</string>
+    <string name="graviton_generation" translatable="false">_</string>
+
+    <!--element generation lined-->
+    <string name="up_generation_lined" translatable="false">|</string>
+    <string name="charm_generation_lined" translatable="false">| |</string>
+    <string name="top_generation_lined" translatable="false">| | |</string>
+    <string name="down_generation_lined" translatable="false">|</string>
+    <string name="strange_generation_lined" translatable="false">| |</string>
+    <string name="bottom_generation_lined" translatable="false">| | |</string>
+    <string name="antiup_generation_lined" translatable="false">|</string>
+    <string name="anticharm_generation_lined" translatable="false">| |</string>
+    <string name="antitop_generation_lined" translatable="false">| | |</string>
+    <string name="antidown_generation_lined" translatable="false">|</string>
+    <string name="antistrange_generation_lined" translatable="false">| |</string>
+    <string name="antibottom_generation_lined" translatable="false">| | |</string>
+    <string name="electron_generation_lined" translatable="false">|</string>
+    <string name="muon_generation_lined" translatable="false">| |</string>
+    <string name="tau_generation_lined" translatable="false">| | |</string>
+    <string name="antielectron_generation_lined" translatable="false">|</string>
+    <string name="antimuon_generation_lined" translatable="false">| |</string>
+    <string name="antitau_generation_lined" translatable="false">| | |</string>
+    <string name="electron_neutrino_generation_lined" translatable="false">|</string>
+    <string name="muon_neutrino_generation_lined" translatable="false">| |</string>
+    <string name="tau_neutrino_generation_lined" translatable="false">| | |</string>
+    <string name="electron_antineutrino_generation_lined" translatable="false">|</string>
+    <string name="muon_antineutrino_generation_lined" translatable="false">| |</string>
+    <string name="tau_antineutrino_generation_lined" translatable="false">| | |</string>
+    <string name="gluon_generation_lined" translatable="false"> </string>
+    <string name="photon_generation_lined" translatable="false"> </string>
+    <string name="z_boson_generation_lined" translatable="false"> </string>
+    <string name="w_nag_generation_lined" translatable="false"> </string>
+    <string name="w_pos_generation_lined" translatable="false"> </string>
+    <string name="higgs_generation_lined" translatable="false"> </string>
+    <string name="graviton_generation_lined" translatable="false"> </string>
+
+    <!--antiparticle-->
+    <string name="up_antiparticle">up antiquark</string>
+    <string name="charm_antiparticle">charm antiquark</string>
+    <string name="top_antiparticle">top antiquark</string>
+    <string name="down_antiparticle">down antiquark</string>
+    <string name="strange_antiparticle">strange antiquark</string>
+    <string name="bottom_antiparticle">bottom antiquark</string>
+    <string name="antiup_antiparticle">up</string>
+    <string name="anticharm_antiparticle">charm</string>
+    <string name="antitop_antiparticle">top</string>
+    <string name="antidown_antiparticle">down</string>
+    <string name="antistrange_antiparticle">strange</string>
+    <string name="antibottom_antiparticle">bottom</string>
+    <string name="electron_antiparticle">anti electron(Positron)</string>
+    <string name="muon_antiparticle">antimuon</string>
+    <string name="tau_antiparticle">antitau</string>
+    <string name="antielectron_antiparticle">electron</string>
+    <string name="antimuon_antiparticle">muon</string>
+    <string name="antitau_antiparticle">tau</string>
+    <string name="electron_neutrino_antiparticle">electron antineutrino</string>
+    <string name="muon_neutrino_antiparticle">muon antineutrino</string>
+    <string name="tau_neutrino_antiparticle">tau antineutrino</string>
+    <string name="electron_antineutrino_antiparticle">electron neutrino</string>
+    <string name="muon_antineutrino_antiparticle">muon neutrino</string>
+    <string name="tau_antineutrino_antiparticle">tau neutrino</string>
+    <string name="photon_antiparticle" translatable="false">_</string>
+    <string name="gluon_antiparticle" translatable="false">_</string>
+    <string name="z_boson_antiparticle" translatable="false">_</string>
+    <string name="w_nag_antiparticle">w⁺ boson</string>
+    <string name="w_pos_antiparticle">w⁻ boson</string>
+    <string name="higgs_antiparticle" translatable="false">_</string>
+    <string name="graviton_antiparticle" translatable="false">_</string>
+
+    <!--elements mass-->
+    <string name="up_mass_evc">2.2±4 MeV/c²</string>
+    <string name="charm_mass_evc">1.275±0.025 GeV/c²</string>
+    <string name="top_mass_evc">173.0±0.4 GeV/c²</string>
+    <string name="down_mass_evc">4.7±0.3 MeV/c²</string>
+    <string name="strange_mass_evc">95±3 MeV/c²</string>
+    <string name="bottom_mass_evc">4.18±0.03 MeV/c²</string>
+    <string name="antiup_mass_evc"> MeV/c²</string>
+    <string name="anticharm_mass_evc"> MeV/c²</string>
+    <string name="antitop_mass_evc"> MeV/c²</string>
+    <string name="antidown_mass_evc"> MeV/c²</string>
+    <string name="antistrange_mass_evc"> MeV/c²</string>
+    <string name="antibottom_mass_evc"> MeV/c²</string>
+    <string name="electron_mass_evc">0.51099895000(15) MeV/c²</string>
+    <string name="muon_mass_evc">105.6583755(23) MeV/c²</string>
+    <string name="tau_mass_evc">1776.86±0.12 MeV/c^2</string>
+    <string name="antielectron_mass_evc">0.5109989461(13) MeV/c²</string>
+    <string name="antimuon_mass_evc">105.6583755(23) MeV/c²</string>
+    <string name="antitau_mass_evc">1776.86±0.12 MeV/c²</string>
+    <string name="electron_neutrino_mass_evc">≈0 MeV/c²</string>
+    <string name="muon_neutrino_mass_evc">≈0 MeV/c²</string>
+    <string name="tau_neutrino_mass_evc">≈0 MeV/c²</string>
+    <string name="electron_antineutrino_mass_evc">≈0 MeV/c²</string>
+    <string name="muon_antineutrino_mass_evc">≈0 MeV/c²</string>
+    <string name="tau_antineutrino_mass_evc">≈0 MeV/c²</string>
+    <string name="photon_mass_evc"> MeV/c²</string>
+    <string name="gluon_mass_evc">1.3 MeV/c²</string>
+    <string name="z_boson_mass_evc">91.1876±0.0021 GeV/c²</string>
+    <string name="w_nag_mass_evc">80.379±0.012 GeV/c²</string>
+    <string name="w_pos_mass_evc">80.379±0.012 GeV/c²</string>
+    <string name="higgs_mass_evc">	125.18±0.16 GeV/c²</string>
+    <string name="graviton_mass_evc">0 MeV/c²</string>
+
+    <!--element electric charge-->
+    <string name="up_electric_charge" translatable="false">+2/3e</string>
+    <string name="charm_electric_charge" translatable="false">+2/3e</string>
+    <string name="top_electric_charge" translatable="false">+2/3e</string>
+    <string name="down_electric_charge" translatable="false">-1/3e</string>
+    <string name="strange_electric_charge" translatable="false">-1/3e</string>
+    <string name="bottom_electric_charge" translatable="false">-1/3e</string>
+    <string name="antiup_electric_charge" translatable="false">-2/3e</string>
+    <string name="anticharm_electric_charge" translatable="false">-2/3e</string>
+    <string name="antitop_electric_charge" translatable="false">-2/3e</string>
+    <string name="antidown_electric_charge" translatable="false">+1/3e</string>
+    <string name="antistrange_electric_charge" translatable="false">+1/3e</string>
+    <string name="antibottom_electric_charge" translatable="false">+1/3e</string>
+    <string name="electron_electric_charge" translatable="false">−1e</string>
+    <string name="muon_electric_charge" translatable="false">−1e</string>
+    <string name="tau_electric_charge" translatable="false">−1e</string>
+    <string name="antielectron_electric_charge" translatable="false">+1e</string>
+    <string name="antimuon_electric_charge" translatable="false">+1e</string>
+    <string name="antitau_electric_charge" translatable="false">+1e</string>
+    <string name="electron_neutrino_electric_charge" translatable="false">0e</string>
+    <string name="muon_neutrino_electric_charge" translatable="false">0e</string>
+    <string name="tau_neutrino_electric_charge" translatable="false">0e</string>
+    <string name="electron_antineutrino_electric_charge" translatable="false">0e</string>
+    <string name="muon_antineutrino_electric_charge" translatable="false">0e</string>
+    <string name="tau_antineutrino_electric_charge" translatable="false">0e</string>
+    <string name="photon_electric_charge" translatable="false">0e</string>
+    <string name="gluon_electric_charge" translatable="false">0e</string>
+    <string name="z_boson_electric_charge" translatable="false">0e</string>
+    <string name="w_nag_electric_charge" translatable="false">-1e</string>
+    <string name="w_pos_electric_charge" translatable="false">+1e</string>
+    <string name="higgs_electric_charge" translatable="false">0e</string>
+    <string name="graviton_electric_charge" translatable="false">0e</string>
+
+    <!--element spin-->
+    <string name="up_spin" translatable="false">1/2</string>
+    <string name="charm_spin" translatable="false">1/2</string>
+    <string name="top_spin" translatable="false">1/2</string>
+    <string name="down_spin" translatable="false">1/2</string>
+    <string name="strange_spin" translatable="false">1/2</string>
+    <string name="bottom_spin" translatable="false">1/2</string>
+    <string name="antiup_spin" translatable="false">1/2</string>
+    <string name="anticharm_spin" translatable="false">1/2</string>
+    <string name="antitop_spin" translatable="false">1/2</string>
+    <string name="antidown_spin" translatable="false">1/2</string>
+    <string name="antistrange_spin" translatable="false">1/2</string>
+    <string name="antibottom_spin" translatable="false">1/2</string>
+    <string name="electron_spin" translatable="false">1/2</string>
+    <string name="muon_spin" translatable="false">1/2</string>
+    <string name="tau_spin" translatable="false">1/2</string>
+    <string name="antielectron_spin" translatable="false">1/2</string>
+    <string name="antimuon_spin" translatable="false">1/2</string>
+    <string name="antitau_spin" translatable="false">1/2</string>
+    <string name="electron_neutrino_spin" translatable="false">1/2</string>
+    <string name="muon_neutrino_spin" translatable="false">1/2</string>
+    <string name="tau_neutrino_spin" translatable="false">1/2</string>
+    <string name="electron_antineutrino_spin" translatable="false">1/2</string>
+    <string name="muon_antineutrino_spin" translatable="false">1/2</string>
+    <string name="tau_antineutrino_spin" translatable="false">1/2</string>
+    <string name="photon_spin" translatable="false">1</string>
+    <string name="gluon_spin" translatable="false">1</string>
+    <string name="z_boson_spin" translatable="false">1</string>
+    <string name="w_nag_spin" translatable="false">1</string>
+    <string name="w_pos_spin" translatable="false">1</string>
+    <string name="higgs_spin" translatable="false">0</string>
+    <string name="graviton_spin" translatable="false">2</string>
+
+    <!--element is anti particle-->
+    <bool name="up_is_anti_patricle">false</bool>
+    <bool name="charm_is_anti_patricle">false</bool>
+    <bool name="top_is_anti_patricle">false</bool>
+    <bool name="down_is_anti_patricle">false</bool>
+    <bool name="strange_is_anti_patricle">false</bool>
+    <bool name="bottom_is_anti_patricle">false</bool>
+    <bool name="antiup_is_anti_patricle">true</bool>
+    <bool name="anticharm_is_anti_patricle">true</bool>
+    <bool name="antitop_is_anti_patricle">true</bool>
+    <bool name="antidown_is_anti_patricle">true</bool>
+    <bool name="antistrange_is_anti_patricle">true</bool>
+    <bool name="antibottom_is_anti_patricle">true</bool>
+    <bool name="electron_is_anti_patricle">false</bool>
+    <bool name="muon_is_anti_patricle">false</bool>
+    <bool name="tau_is_anti_patricle">false</bool>
+    <bool name="antielectron_is_anti_patricle">true</bool>
+    <bool name="antimuon_is_anti_patricle">true</bool>
+    <bool name="antitau_is_anti_patricle">true</bool>
+    <bool name="electron_neutrino_is_anti_patricle">false</bool>
+    <bool name="muon_neutrino_is_anti_patricle">false</bool>
+    <bool name="tau_neutrino_is_anti_patricle">false</bool>
+    <bool name="electron_antineutrino_is_anti_patricle">true</bool>
+    <bool name="muon_antineutrino_is_anti_patricle">true</bool>
+    <bool name="tau_antineutrino_is_anti_patricle">true</bool>
+    <bool name="photon_is_anti_patricle">false</bool>
+    <bool name="gluon_is_anti_patricle">false</bool>
+    <bool name="z_boson_is_anti_patricle">false</bool>
+    <bool name="w_nag_is_anti_patricle">false</bool>
+    <bool name="w_pos_is_anti_patricle">false</bool>
+    <bool name="higgs_is_anti_patricle">false</bool>
+    <bool name="graviton_is_anti_patricle">false</bool>
+
+    <!--element emission-->
+
+    <string name="up_emission" translatable="false">Unknown yet</string>
+    <string name="charm_emission" translatable="false">Unknown yet</string>
+    <string name="top_emission" translatable="false">Unknown yet</string>
+    <string name="down_emission" translatable="false">Unknown yet</string>
+    <string name="strange_emission" translatable="false">Unknown yet</string>
+    <string name="bottom_emission" translatable="false">Unknown yet</string>
+    <string name="antiup_emission" translatable="false">Unknown yet</string>
+    <string name="anticharm_emission" translatable="false">Unknown yet</string>
+    <string name="antitop_emission" translatable="false">Unknown yet</string>
+    <string name="antidown_emission" translatable="false">Unknown yet</string>
+    <string name="antistrange_emission" translatable="false">Unknown yet</string>
+    <string name="antibottom_emission" translatable="false">Unknown yet</string>
+    <string name="electron_emission" translatable="false">p⁺ → n⁰ + e⁻ + νe⁰</string>
+    <string name="muon_emission" translatable="false">e⁺+e⁻→e⁺+e⁻+μ⁺+μ⁻+undetected particles</string>
+    <string name="tau_emission" translatable="false">e⁺ + e⁻ → τ⁺ + τ⁻</string>
+    <string name="antielectron_emission" translatable="false">e⁺+e⁻→e⁺+e⁻+μ⁺+μ⁻+undetected particles</string>
+    <string name="antimuon_emission" translatable="false">e⁺+e⁻→e⁺+e⁻+μ⁺+μ⁻+undetected particles</string>
+    <string name="antitau_emission" translatable="false">e⁺ + e⁻ → τ⁺ + τ⁻</string>
+    <string name="electron_neutrino_emission" translatable="false">p⁺ → n⁰ + e⁻ + νe⁰</string>
+    <string name="muon_neutrino_emission" translatable="false">Unknown yet</string>
+    <string name="tau_neutrino_emission" translatable="false">e⁺ + e⁻ → τ⁺ + τ⁻</string>
+    <string name="electron_antineutrino_emission" translatable="false">Unknown yet</string>
+    <string name="muon_antineutrino_emission" translatable="false">e⁺+e⁻→e⁺+e⁻+μ⁺+َََνμ</string>
+    <string name="tau_antineutrino_emission" translatable="false">Unknown yet</string>
+    <string name="photon_emission" translatable="false">e⁺ + e⁻ → Υ</string>
+    <string name="gluon_emission" translatable="false"> e⁺ + e⁻ → Υ → 3g</string>
+    <string name="z_boson_emission" translatable="false">Unknown yet</string>
+    <string name="w_nag_emission" translatable="false">Unknown yet</string>
+    <string name="w_pos_emission" translatable="false">Unknown yet</string>
+    <string name="higgs_emission" translatable="false">Unknown yet</string>
+    <string name="graviton_emission" translatable="false">Unknown yet</string>
+
+
+    <!--element diameter-->
+    <string name="up_diameter" translatable="false">0</string>
+    <string name="charm_diameter" translatable="false">0</string>
+    <string name="top_diameter" translatable="false">0</string>
+    <string name="down_diameter" translatable="false">0</string>
+    <string name="strange_diameter" translatable="false">0</string>
+    <string name="bottom_diameter" translatable="false">0</string>
+    <string name="antiup_diameter" translatable="false">0</string>
+    <string name="anticharm_diameter" translatable="false">0</string>
+    <string name="antitop_diameter" translatable="false">0</string>
+    <string name="antidown_diameter" translatable="false">0</string>
+    <string name="antistrange_diameter" translatable="false">0</string>
+    <string name="antibottom_diameter" translatable="false">0</string>
+    <string name="electron_diameter" translatable="false"><![CDATA[<]]>10⁻¹⁹ m</string>
+    <string name="muon_diameter" translatable="false">_</string>
+    <string name="tau_diameter" translatable="false">_</string>
+    <string name="antielectron_diameter" translatable="false"><![CDATA[<]]>10⁻¹⁹ m</string>
+    <string name="antimuon_diameter" translatable="false">_</string>
+    <string name="antitau_diameter" translatable="false">_</string>
+    <string name="electron_neutrino_diameter" translatable="false">_</string>
+    <string name="muon_neutrino_diameter" translatable="false">_</string>
+    <string name="tau_neutrino_diameter" translatable="false">_</string>
+    <string name="electron_antineutrino_diameter" translatable="false">_</string>
+    <string name="muon_antineutrino_diameter" translatable="false">_</string>
+    <string name="tau_antineutrino_diameter" translatable="false">_</string>
+    <string name="gluon_diameter" translatable="false">_</string>
+    <string name="photon_diameter" translatable="false">_</string>
+    <string name="z_boson_diameter" translatable="false">_</string>
+    <string name="w_nag_diameter" translatable="false">_</string>
+    <string name="w_pos_diameter" translatable="false">_</string>
+    <string name="higgs_diameter" translatable="false">_</string>
+    <string name="graviton_diameter" translatable="false">_</string>
+
+    <!--element mean lifetime-->
+    <string name="up_mean_lifetime">stable</string>
+    <string name="charm_mean_lifetime">stable</string>
+    <string name="top_mean_lifetime">stable</string>
+    <string name="down_mean_lifetime">stable</string>
+    <string name="strange_mean_lifetime">stable</string>
+    <string name="bottom_mean_lifetime">stable</string>
+    <string name="antiup_mean_lifetime">stable</string>
+    <string name="anticharm_mean_lifetime">stable</string>
+    <string name="antitop_mean_lifetime">stable</string>
+    <string name="antidown_mean_lifetime">stable</string>
+    <string name="antistrange_mean_lifetime">stable</string>
+    <string name="antibottom_mean_lifetime">stable</string>
+    <string name="electron_mean_lifetime">stable</string>
+    <string name="muon_mean_lifetime">2.2x10⁻⁶ sec</string>
+    <string name="tau_mean_lifetime">2.9x10⁻¹³ sec</string>
+    <string name="antielectron_mean_lifetime">stable</string>
+    <string name="antimuon_mean_lifetime">2.2x10⁻⁶ sec</string>
+    <string name="antitau_mean_lifetime">2.9x10⁻¹³ sec</string>
+    <string name="electron_neutrino_mean_lifetime">stable</string>
+    <string name="muon_neutrino_mean_lifetime" translatable="false">_</string>
+    <string name="tau_neutrino_mean_lifetime" translatable="false">_</string>
+    <string name="electron_antineutrino_mean_lifetime">stable</string>
+    <string name="muon_antineutrino_mean_lifetime" translatable="false">_</string>
+    <string name="tau_antineutrino_mean_lifetime" translatable="false">_</string>
+    <string name="photon_mean_lifetime">stable</string>
+    <string name="gluon_mean_lifetime">stable</string>
+    <string name="z_boson_mean_lifetime">3x10⁻²⁵ sec</string>
+    <string name="w_nag_mean_lifetime">3x10⁻¹⁵ sec</string>
+    <string name="w_pos_mean_lifetime">3x10⁻¹⁵ sec</string>
+    <string name="higgs_mean_lifetime" translatable="false">_</string>
+    <string name="graviton_mean_lifetime" translatable="false">_</string>
+
+    <!--element interactions-->
+    <string name="up_interactions">Strong,Weak,Electromagnetic,Gravity</string>
+    <string name="charm_interactions">Strong,Weak,Electromagnetic,Gravity</string>
+    <string name="top_interactions">Strong,Weak,Electromagnetic,Gravity</string>
+    <string name="down_interactions">Strong,Weak,Electromagnetic,Gravity</string>
+    <string name="strange_interactions">Strong,Weak,Electromagnetic,Gravity</string>
+    <string name="bottom_interactions">Strong,Weak,Electromagnetic,Gravity</string>
+    <string name="antiup_interactions">Strong,Weak,Electromagnetic,Gravity</string>
+    <string name="anticharm_interactions">Strong,Weak,Electromagnetic,Gravity</string>
+    <string name="antitop_interactions">Strong,Weak,Electromagnetic,Gravity</string>
+    <string name="antidown_interactions">Strong,Weak,Electromagnetic,Gravity</string>
+    <string name="antistrange_interactions">Strong,Weak,Electromagnetic,Gravity</string>
+    <string name="antibottom_interactions">Strong,Weak,Electromagnetic,Gravity</string>
+    <string name="electron_interactions">Weak,Electromagnetic</string>
+    <string name="muon_interactions">Weak,Electromagnetic</string>
+    <string name="tau_interactions">Weak,Electromagnetic</string>
+    <string name="antielectron_interactions">Weak,Electromagnetic</string>
+    <string name="antimuon_interactions">Weak,Electromagnetic</string>
+    <string name="antitau_interactions">Weak,Electromagnetic</string>
+    <string name="electron_neutrino_interactions">Weak,Gravity</string>
+    <string name="muon_neutrino_interactions">Weak,Gravity</string>
+    <string name="tau_neutrino_interactions">Weak,Gravity</string>
+    <string name="electron_antineutrino_interactions">Weak,Gravity</string>
+    <string name="muon_antineutrino_interactions">Weak,Gravity</string>
+    <string name="tau_antineutrino_interactions">Weak,Gravity</string>
+    <string name="photon_interactions">Weak,Electromagnetic,Gravity</string>
+    <string name="gluon_interactions">Strong</string>
+    <string name="z_boson_interactions">Weak</string>
+    <string name="w_nag_interactions">Weak</string>
+    <string name="w_pos_interactions">Weak</string>
+    <string name="higgs_interactions" translatable="false">_</string>
+    <string name="graviton_interactions">Gravitation</string>
+    <!--element abbreviated-->
+
+    <string name="up_abbreviated">The up is the lightest quark and together with the down part of the protons and neutrons. This makes it an important particle of our matter.</string>
+    <string name="charm_abbreviated" translatable="false">The down is the second lightest quark and together with the up part of the protons and neutrons. This makes it an important particle of our matter. At the decay of a free neutron, a down turns into an up quark and an electron.</string>
+    <string name="top_abbreviated" translatable="false">Top quarks (also called truth quarks) are extremely unstable and decay almost immediately, mostly to bottom quarks and W+ bosons, even before they can form hadrons. A top quark is about as heavy as an atom of the heavy metal rhenium.</string>
+    <string name="down_abbreviated">The down is the second lightest quark and together with the up part of the protons and neutrons. This makes it an important particle of our matter. At the decay of a free neutron, a down turns into an up quark and an electron.</string>
+    <string name="strange_abbreviated" translatable="false">Strange quarks normally aren\'t stable and quickly decay into up quarks and W- bosons. In their short lifetime, they are part of some baryons and mesons, like the kaon. Particles with a strange quark have a strangeness value of -1. Those form the strange matter. From a mass of 1000 u upwards there could be stable strange matter. This could be formed in heavy neutron stars.</string>
+    <string name="bottom_abbreviated" translatable="false">Bottom quarks (also called beauty quarks) are not stable and quickly decay, mostly to charm quarks and W- bosons. In their short lifetime, they are part of some baryons and mesons. Due to their high mass, bottom quarks are relatively easy to research in experiments, a bottom quark is slightly heavier than a helium atom.</string>
+    <string name="antiup_abbreviated" translatable="false">It is considered antiup and it has the same properties but has the opposite electric charge</string>
+    <string name="anticharm_abbreviated" translatable="false">It is considered anticharm and it has the same properties but has the opposite electric charge</string>
+    <string name="antitop_abbreviated" translatable="false">It is considered antitop and it has the same properties but has the opposite electric charge</string>
+    <string name="antidown_abbreviated" translatable="false">It is considered antidown and it has the same properties but has the opposite electric charge</string>
+    <string name="antistrange_abbreviated" translatable="false">It is considered antistrange and it has the same properties but has the opposite electric charge</string>
+    <string name="antibottom_abbreviated" translatable="false">It is considered antibottom and it has the same properties but has the opposite electric charge</string>
+    <string name="electron_abbreviated" translatable="false">Electrons are elementary particles, the negatively charged particles of our matter. Electrons form the shells of atoms and so define the chemical properties of the elements. The number of electrons in the atom is defined by the oppositely charged protons, which attract the electrons. At the transition of electrons to other shells, photons are emitted or absorbed. Electric current mostly is the flow of electrons in a conductive medium (e.g. copper).</string>
+    <string name="muon_abbreviated">The muon is a particle very similar to the electron, but much heavier than this and unstable. It even can take the electron\'s place in atoms, but there only has a very shortened lifetime. Muons mainly occur at the decay of pions. If they come into existence by cosmic radiation in the upper atmosphere, they can pierce deep into Earth\'s ground during their lifetime. They can be measured pretty good and those particles can be used to scan large objects, like it was already done with pyramids and volcanoes. Muons decay to electrons and to anti- electron neutrinos.</string>
+    <string name="tau_abbreviated" translatable="false">The tauon is a particle very similar to the muon, but much heavier and more unstable than this. It decays to this or to electrons and to the according anti- neutrinos or even to hadrons</string>
+    <string name="antielectron_abbreviated" translatable="false">It is considered antitop and it has the same properties but has the opposite electric charge</string>
+    <string name="antimuon_abbreviated" translatable="false">It is considered antitop and it has the same properties but has the opposite electric charge</string>
+    <string name="antitau_abbreviated" translatable="false">It is considered antitop and it has the same properties but has the opposite electric charge</string>
+    <string name="electron_neutrino_abbreviated" translatable="false">The electron neutrino is a very light particle, which hardly interacts with other matter and moves with almost the speed of light. If neutrinos are mentioned, in most cases the electron neutrino is meant.</string>
+    <string name="muon_neutrino_abbreviated" translatable="false">The muon neutrino is the heavier relative of the electron neutrino. Possibly it is stable, but not much is known about this particle.</string>
+    <string name="tau_neutrino_abbreviated" translatable="false">The tauon neutrino is the heavier relative of the muon neutrino. Possibly it is stable, but not much is known about this particle.</string>
+    <string name="electron_antineutrino_abbreviated" translatable="false">It is considered antitop and it has the same properties but has the opposite electric charge</string>
+    <string name="muon_antineutrino_abbreviated" translatable="false">It is considered antitop and it has the same properties but has the opposite electric charge</string>
+    <string name="tau_antineutrino_abbreviated" translatable="false">It is considered antitop and it has the same properties but has the opposite electric charge</string>
+    <string name="photon_abbreviated" translatable="false">The photon is the particle, or quantum, which carries the electromagnetic force. It is wave and particle at the same time and always moves with the speed of light. Therefore it has a mass (would it become slower, it wouldn\'t have mass any more), which matches to its energy (after E=mc²) and corresponds to its wavelength</string>
+    <string name="gluon_abbreviated" translatable="false">The gluon is the carrier of the strong interaction, which keeps together the quarks in the hadrons and the hadrons via pions. It is the strongest of the four fundamental interactions</string>
+    <string name="z_boson_abbreviated" translatable="false">The Z boson, like the W boson, is a carrier of the weak interaction. It is formed at modifications of elementary particles, where only the spin, but not the charge and the particle type change. W and Z bosons are the only particles (probably together with the very weak graviton)</string>
+    <string name="w_nag_abbreviated" translatable="false">The W bosons (W– and its antiparticle W+) are, together with the Z boson, carriers of the weak interaction. This force, which is 1013 times weaker than the strong interaction, is limited to a very small space of 10–18 meters. It affects quarks and leptons and causes the transmutation of particles.</string>
+    <string name="w_pos_abbreviated" translatable="false">The W bosons (W– and its antiparticle W+) are, together with the Z boson, carriers of the weak interaction. This force, which is 1013 times weaker than the strong interaction, is limited to a very small space of 10–18 meters. It affects quarks and leptons and causes the transmutation of particles.</string>
+    <string name="higgs_abbreviated" translatable="false">The Higgs boson is a very short-lived particle, which implies the existence of the Higgs field. The Higgs field gives mass to the W bosons and the Z boson as well as to leptons und quarks</string>
+    <string name="graviton_abbreviated" translatable="false">The graviton is the hypothetical particle of the weakest of all fundamental interactions, the gravitation. Gravitation is for the factor 1038 weaker than the strong interaction. But different to the other forces, it isn\'t spatially restricted (like electromagnetism) and always acts attracting (like the strong interaction).</string>
+
+
+    <!--don't touch-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--navigation drawer-->
+    <string name="string_theory">String Theory</string>
+    <string name="forces">Forces</string>
+    <string name="youtube_video">Youtube Video</string>
+    <string name="particles_list">Particles List</string>
+    <string name="setting">Setting</string>
+    <string name="about">About</string>
+    <string name="share">Share</string>
+
+    <!--AboutActivity-->
+    <string name="pro_version">Upgrade to the PRO version to unlock all the features in this app.</string>
+    <string name="about_text">All sources of this application have been taken with great care and reliable, global and recognized sources such as CERN have also been taken from Wikipedia and the sources taken from Wikipedia have been checked and verified as correct.</string>
+    <string name="assistant">Assistant</string>
+    <string name="translate_helper">People how help with translations</string>
+    <string name="upgrade_to_the_pro_now">Upgrade to the PRO now!</string>
+
+    <!--Welcome Activity-->
+    <string name="splash_string_theory_title">STRING THEORY</string>
+    <string name="splash_string_theory_description">logical and simplified discussions \n for you about \n string theory and its branches</string>
+    <string name="splash_youtube_title">YOUTUBE VIDEO</string>
+    <string name="splash_youtube_description">links from YouTube and Wikipedia \n that relate to the topic  \n and are renewed periodically</string>
+    <string name="splash_elements_and_forces_title">PARTICLE<![CDATA[&]]>FORCES</string>
+    <string name="splash_elements_and_forces_description">Important information about \n the particles and forces that \n develop your knowledge in this field</string>
+    <string name="splash_button_next">NEXT</string>
+    <string name="splash_button_start">START</string>
+
+    <!--SettingsActivity-->
+    <string name="general_settings">General settings:</string>
+    <string name="form_of_model_title">Form of model</string>
+    <string name="form_of_model_summary">Choose the form that you like</string>
+    <string name="language_title">Language</string>
+    <string name="language_summary">An application restart is required for the language change to take effect.</string>
+    <string name="extra">Extra:</string>
+    <string name="report_bug_title">Report bug</string>
+    <string name="report_bug_summary">help us make the app better</string>
+    <string name="check_for_update_summary">Manually check for new version of the app</string>
+    <string name="check_for_update_title">Check for update</string>
+    <string name="emission_of_elementary_particle_title">emission of elementary particle</string>
+    <string name="image_elementary_picture_title">Image elementary particle</string>
+    <string name="image_elementary_picture_summary">www.wikipedia.com</string>
+    <string name="about_title">About</string>
+    <string name="about_summary">General app information</string>
+    <!--SettingsActivity arrays-->
+    <string name="full_model">Full model</string>
+    <string name="circular_model">Circular model</string>
+    <!--share-->
+    <string name="choose_one">choose one</string>
+    <string name="language_dialoge_title">Language</string>
+    <string name="form_of_model_dialog_title">Form model</string>
+    <string name="version">Version:</string>
+    <string name="force_weak">weak</string>
+    <string name="force_strong">strong</string>
+    <string name="force_electro">electro</string>
+    <string name="force_magnetic">magnetic</string>
+    <string name="force_gravity">gravity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
