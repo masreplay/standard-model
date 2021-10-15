@@ -1,7 +1,7 @@
 name: standard_model
 description: The Standard Model of particle physics
 publish_to: 'none'
-version: 1.0.0+1
+version: 0.0.1-dev+1
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
